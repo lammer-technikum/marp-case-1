@@ -1,0 +1,39 @@
+/* @theme academy-theme */
+
+@import 'default';
+
+header{
+    background-image: url(https://www.technikum-wien.at/fhtw-logo.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    height: 100px;
+    width: 96%;
+}
+
+/* fotoer and pagination number */
+footer, section::after  {
+    font-size: 14px;
+    color: #8bb111;
+}
+
+section {
+    color: #000;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+h1{
+    color: #00649c;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+h2{
+    font-size: 22px;
+    color: #00649c;
+}
+
+li > ul > li {
+    color: #71787d;
+}

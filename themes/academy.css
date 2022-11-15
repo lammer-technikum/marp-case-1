@@ -1,0 +1,40 @@
+/* @theme academy-theme */
+
+@import 'default';
+
+header {
+    background-image: url(https://academy.technikum-wien.at/wp-content/uploads/2020/04/technikum_wien_academy_logo_4c_2020.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 120px;
+    height: 100px;
+    width: 90%;
+}
+
+/* fotoer and pagination number */
+footer, section::after  {
+    font-size: 14px;
+    color: #e71a80;
+}
+
+section {
+    color: #000;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+h1 {
+    color: #00649c;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+h2{
+    font-size: 22px;
+    color: #00649c;
+}
+
+li > ul > li {
+    color: #71787d;
+    font-size: smaller;
+}
